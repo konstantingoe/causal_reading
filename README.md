@@ -22,3 +22,10 @@ Weekly, Wednesdays 2 pm.
 | ---- | ----- |
 | 1     | Shapley Values from a statistical point of view. |
 | 2     | tbd |
+
+
+### How to use
+
+There will be an [issue](https://github.com/konstantingoe/causal_reading/issues) created for each week and associated with that a new branch. By the end of each topic, we open a PR to the main branch. When working on a topic, feel free to branch out of the weekly branch and set PR on said weekly branches.
+
+**Please refrain from pushing directly to the main branch** :-)
