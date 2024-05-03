@@ -17,15 +17,20 @@ The Shapley value axioms that make their use so appealing are:
 1. (*Normalization or Pareto optimality*) For any game $(N, \nu)$, it holds that $\sum_{i\in N}\Phi_i(\nu) = \nu(N)$. In other words, all payoffs are distributed among the players.
 
    **Proof:**
+
    $$\sum_{i\in N}\Phi_i(\nu) = \frac{1}{n!} \sum_{i\in N} \sum_{\pi \in \Pi}\triangle_i(S_i(\pi)) = \frac{1}{n!}  \sum_{\pi \in \Pi} \underbrace{\sum_{i\in N} \nu(S_i(\pi) \cup \{i\} ) - \nu(S_i(\pi))}_{\text{telescoping sum}} = \frac{1}{n!}  \sum_{\pi \in \Pi} \nu(N).$$
+
    The statement follows because there are $n!$ possible orderings in $\Pi$.
 
 2. (*Permutation invariance or symmetry*) For any game $(N, \nu)$ and permutation  $\pi$ on $N$, it holds that $\Phi_i(\nu) = \Phi_{\pi(i)}(\pi\nu)$. In other words, the Shapley value is unaffected by reordering or renaming.
 
 3. (*Null player*) For any game $(N, \nu)$ such that $\nu(S \cup \{i\} ) = \nu(S)$ for every $S \subseteq N$, it holds that $\Phi_i(\nu) = 0$. In other words, player $i$ is a null player if she doesn't contribute to any of the group's payoff upon joining it.
-4. (*Linearity*) For any two games $(N, \nu)$ and $(N, \omega)$ it holds that 
+4. (*Linearity*) For any two games $(N, \nu)$ and $(N, \omega)$ it holds that
+
    $$ \Phi_i(\nu + \omega) = \Phi_i(\nu) + \Phi_i(\omega),$$
+
    where $(\nu + \omega)(S) = \nu(S) + \omega(S)$. Also, for any $\alpha \in \mathbb{R}$ we have
+
    $$ \Phi_i(\alpha \nu) = \alpha \Phi_i(\nu).$$
 
 In practice, calculating Shapley values requires summing over all possible subsets of players.
