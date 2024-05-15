@@ -18,10 +18,10 @@ Weekly, Wednesdays 2 pm.
 
 ## Topic choices
 
-| Week | Topic |
-| ---- | ----- |
-| 1     | Shapley Values from a statistical point of view. |
-| 2     | tbd |
+| Week | Topic                                            |
+| ---- | ------------------------------------------------ |
+| 1    | Shapley Values from a statistical point of view. |
+| 2    | tbd                                              |
 
 
 ### How to use
