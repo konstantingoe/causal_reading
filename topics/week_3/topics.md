@@ -1,6 +1,6 @@
-# Comparative Analysis of Causality Papers
+# Overview of selected Causality Papers
 
-This document provides a comparison of selected papers in the field of causality.
+This document provides an overview of selected papers in the field of causality.
 
 ## Paper 1: [Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations](https://proceedings.mlr.press/v236/geiger24a/geiger24a.pdf)
 

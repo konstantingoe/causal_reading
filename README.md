@@ -18,11 +18,12 @@ Weekly, Wednesdays 2 pm.
 
 ## Topic choices
 
-| Week | Topic                                            |
-| ---- | ------------------------------------------------ |
-| 1    | Shapley Values from a statistical point of view. |
-| 2    | Shapley Values for root cause analysis           |
-| 3    | Quick overview over next topics                  |
+| Week | Topic                                                                                                                       |
+| ---- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Shapley Values from a statistical point of view.                                                                            |
+| 2    | Shapley Values for root cause analysis                                                                                      |
+| 3    | Quick overview over next topics                                                                                             |
+| 4    | [Fundamental Properties of Causal Entropy and Information Gain](https://proceedings.mlr.press/v236/simoes24a/simoes24a.pdf) |
 
 
 
